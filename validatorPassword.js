@@ -1,9 +1,9 @@
 // Must be a minimum of 8 characters
 function validatePassword (password) {
-    const lowerCase = 'abcdefghijklmnopqrstuvwxyz'
-    const upperLetter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-    const numeric = '123456789'
-    const specialCharacter = '!@#$%^&*=+'
+    const lowerCase = ('abcdefghijklmnopqrstuvwxyz')
+    const upperLetter = ('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+    const numeric = ('123456789')
+    const specialCharacter = ('!@#$%^&*=+')
     let isLongEnough = false
     let hasLowerCase = false
     let hasUpperCase = false
